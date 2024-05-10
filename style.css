@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    flex: 1;
+    text-align: center;
+}
+
+.logo {
+    height: 5px;
+    margin-right: 10px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.social-icon {
+    height: 5px;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    margin-left: 10px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 20px;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.info-container th {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.info-container td {
+    padding-bottom: 20px;
+}
+/* Logo */
+.logo {
+    max-width: 100px; /* Tamaño máximo del logo */
+    height: auto; /* Mantén la proporción de aspecto */
+}
+
+/* Imágenes de redes sociales */
+.social-icon img {
+    max-width: 50px; /* Tamaño máximo de las imágenes de redes sociales */
+    height: auto; /* Mantén la proporción de aspecto */
+}
+
+/* Imágenes del carrusel */
+.carrusel img {
+    max-width: 200px; /* Tamaño máximo de las imágenes del carrusel */
+    height: auto; /* Mantén la proporción de aspecto */
+}
+
+/* Imágenes de la galería */
+.galeria img {
+    max-width: 150px; /* Tamaño máximo de las imágenes de la galería */
+    height: auto; /* Mantén la proporción de aspecto */
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-row img {
+    max-width: calc(33.33% - 20px); /* Adjust the percentage as needed */
+    height: auto;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
